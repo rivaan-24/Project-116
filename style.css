@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    background: url("https://cdn.vectorstock.com/i/1000x1000/31/78/mustache-seamless-background-vector-4713178.webp");
+    background-size: 50%;
+}
+
+#heading {
+    font-size: 60px;
+    color: wheat;
+    font-family: 'Combo', cursive;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#button {
+    font-size: 45px;
+    color: rgb(233, 224, 209);
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+#button:hover {
+    color: khaki;
+    font-weight: bolder;
+    font-size: 50px;
+    letter-spacing: 4px;
+    transition-duration: 3s;
+    transition-delay: 3ms;
+}
+
+#heading:hover {
+    font-size: 65px;
+    color: burlywood;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    transition-delay: 3ms;
+    transition-duration: 3s;
+}
+
+canvas {
+    border-style: double;
+    border-color: aliceblue;
+    animation-name: animation_project;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    margin-top: 150px;
+}
+
+@keyframes animation_project {
+    from {
+        box-shadow: 5px 5px 30px orange
+    }
+
+    to {
+        box-shadow: 7px 7px 40px palegreen
+    }
+}
+
+;
